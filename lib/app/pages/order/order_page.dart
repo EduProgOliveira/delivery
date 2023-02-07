@@ -107,7 +107,9 @@ class _OrderPageState extends BaseState<OrderPage, OrderController> {
       },
       child: WillPopScope(
         onWillPop: () async {
-          Navigator.of(context).pop(controller.state.orderProducts);
+          Navigator.of(context).pop(controller.state.orderProducts.isEmpty
+              ? <OrderProductDto>[]
+              : controller.state.orderProducts);
           return false;
         },
         child: Scaffold(
