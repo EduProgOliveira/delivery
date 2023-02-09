@@ -1,7 +1,6 @@
 import 'package:dw9_delivery_appp/app/core/global/global_context.dart';
 import 'package:dw9_delivery_appp/app/core/provider/application_binding.dart';
 import 'package:dw9_delivery_appp/app/core/ui/theme/theme_config.dart';
-import 'package:dw9_delivery_appp/app/pages/auth/login/login_page.dart';
 import 'package:dw9_delivery_appp/app/pages/auth/login/login_router.dart';
 import 'package:dw9_delivery_appp/app/pages/order/order_router.dart';
 import 'package:dw9_delivery_appp/app/pages/auth/register/register_router.dart';
